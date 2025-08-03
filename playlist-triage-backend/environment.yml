@@ -1,0 +1,15 @@
+name: playlist-triage-backend
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - fastapi
+  - uvicorn
+  - pydantic
+  - pydantic-settings
+  - httpx
+  - python-dotenv
+  - numpy
+  - pip
+  - pip:
+      # Add any pip-only packages here if needed
